@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor{
+  align-items: center;
+  background-color: #212233;
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  justify-content: space-evenly;
+  width: 25vw;
+  height: 40vh;
+}
+
+.contenedor p{
+  font-size: 3rem;
+}
+
+.botonera{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+button{
+  background-color: #ee9f38;
+  border-radius: 15px;
+  color: #fafafa;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 5vh;
+  width: 20%;
+}
+
+button:hover{
+  background-color: #bd8945;
+}
